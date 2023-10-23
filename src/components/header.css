@@ -1,0 +1,7 @@
+.navbar-background {
+  background-image: url("../assets/images/clouds.webp");
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+}

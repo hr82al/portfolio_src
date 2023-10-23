@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  font-family: 'Geologica', sans-serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --bg-color:rgb(39 39 42);
+  --color:rgb(254 243 199);
+
+  color-scheme: light dark;
+  color: --color;
+  background-color: --bg-color;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color:#ffffff;
+    --color:#213547;
+
+    color: --color;
+    background-color: var(--bg-color);
+  }
+}
